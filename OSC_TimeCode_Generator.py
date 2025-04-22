@@ -169,7 +169,7 @@ class OscTimecodeGeneratorApp(tk.Tk):
         """Attempts to set the application window icon."""
         try:
             # Assumes icon file is named 'app_icon.ico' and bundled correctly
-            icon_path = resource_path("app_icon.ico")
+            icon_path = resource_path("osc_tc_gen2.ico")
             print(f"Attempting to load window icon from: {icon_path}")
             self.iconbitmap(icon_path)
         except tk.TclError as e: # Catch specific Tkinter error for missing bitmap
