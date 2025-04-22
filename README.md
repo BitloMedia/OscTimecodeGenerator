@@ -2,6 +2,11 @@
 
 A simple desktop utility (Windows/macOS/Linux via source, Windows EXE available) to generate and send SMPTE timecode (HH:MM:SS:FF) over the network using OSC.
 
+
+<p align="center">
+  <img src="gui.jpg" alt="OSC Timecode Generator Screenshot" width="300">
+</p>
+
 ## Features
 
 * Send timecode via OSC to configurable IP, Port, and Address.
